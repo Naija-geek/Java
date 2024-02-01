@@ -3,13 +3,15 @@ public class Rectangle
 {
   public static void main(String[] args)
   {
-    Scanner israel = new Scanner(System.in);
-    float length, breadth, area;
-    System.out.print("Enter the length of the rectangle:" );
-    length = israel.nextFloat();
-    System.out.print("Enter the breadth of the rectangle:" );
-    breadth = israel.nextFloat();
-    area = length * breadth;
+    try (Scanner israel = new Scanner(System.in)) {
+      float length, breadth, area;
+      System.out.print("Enter the length of the rectangle:" );
+      length = israel.nextFloat();
+      System.out.print("Enter the breadth of the rectangle:" );
+      breadth = israel.nextFloat();
+      area = length * breadth;
+    }
     System.out.println("The area = " + area);
   }
 }
+
