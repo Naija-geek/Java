@@ -5,9 +5,10 @@ public class Circle
   {
     float radius,area;
     System.out.println(lawrence[0]);
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Enter the radius: ");
-    radius = sc.nextFloat();
+    try (Scanner sc = new Scanner(System.in)) {
+      System.out.print("Enter the radius: ");
+      radius = sc.nextFloat();
+    }
     area = (float)(Math.PI * Math.pow(radius,2));
     
     System.out.println("The area = " + area);
