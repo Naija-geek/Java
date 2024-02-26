@@ -11,7 +11,7 @@ public class Student_name {
         final int MAX_STUDENTS = 10;
 
         // Create an array to store student names
-        String[] studentNames = new String[MAX_STUDENTS];
+        String[] studentNames = new String[MAX_STUDENTS];  
 
         // Get the number of students to add
         System.out.print("Enter the number of students: ");
