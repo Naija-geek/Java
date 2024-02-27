@@ -1,3 +1,5 @@
+
+
 public class Access_modifier {
 
   private int privateVariable = 10; // Only accessible within this class

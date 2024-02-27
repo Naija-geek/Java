@@ -1,7 +1,11 @@
+
 import java.util.Scanner;
  
 public class week_days{ 
-      public static void main(String args[]){
+      /**
+     * @param args
+     */
+    public static void main(String args[]){
           int day;
           Scanner SC=new Scanner(System.in);
            
