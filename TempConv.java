@@ -4,7 +4,7 @@ public class TempConv
   public static void main(String... olajumoke)
   {
     float celcius, conv;
-    Scanner input = new Scanner(System.in);
+    Scanner  = new Scanner(System.in);
     System.out.println("Enter the values of celcius:");
     celcius = input.nextFloat();
     conv = (float)(celcius*1.8+32);
